@@ -1,0 +1,9 @@
+<?php
+	//drupal_set_message('reab_panes');
+
+function reab_panes_ctools_plugin_directory($owner, $plugin_type) {
+	//ctools //content_types
+	if ($owner == 'ctools' && $plugin_type == 'content_types') {
+		return 'plugins/'. $plugin_type;
+	}
+}

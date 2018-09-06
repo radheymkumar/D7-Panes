@@ -1,0 +1,8 @@
+name = Reab Panes
+description = Custom reab_panes
+core = 7.x
+version = 7.1.x
+package = Dots
+
+dependencies[] = panels
+dependencies[] = ctools
